@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Tahoma', sans-serif;
+    color: #212F3D;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #EAECEE;
+    border-radius: 10px;
+}
+
+.container-buttons {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+a {
+    width: 100px;
+    height: auto;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #000;
+    background: #33FFB2;
+    border: 1px solid #D5D8DC;
+    border-radius: 10px;
+    font-family: "Tempus Sans ITC", sans-serif;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+a:hover {
+    border: 1px solid #808B96;
+    background: #45EAAC;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.container-inputs {
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    padding-right: 10px;
+    font-family: 'Tempus Sans ITC', sans-serif;
+    font-size: 20px;
+    color: #212F3D;
+}
+
+input, select, textarea {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border: 1px solid #808B96;
+    border-radius: 4px;
+    font-family: "Tempus Sans ITC", sans-serif;
+    font-size: 20px;
+}
